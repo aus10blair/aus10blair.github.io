@@ -1,0 +1,43 @@
+
+#homePage{
+  
+    background:
+    /*linear-gradient(#0d4fa7 20%, #3072cc 40%, #6facff 60%, #EA461A 90%,  #F8FB2B);*/
+    linear-gradient(#000000 25%, #020f1f 30%, #072c5c 50%, #083269 55%, #0a3c7e 60%, #0a3e83 70%, #0d4fa5 80%, #3072cc 90%, #3877cf 100%);  
+    background-repeat: no-repeat, repeat;
+  }
+
+#projects{
+  background: linear-gradient(  #3877cf 20%, #3072cc 40%, #5b90d6, #95bbfa 100%);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+ 
+}
+
+#aboutMe{
+  background: linear-gradient(0deg, blue, #257df0);
+  opacity: 0.5;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  color:red;
+}
+
+#contact{
+  background: linear-gradient(0deg, orange, blue);
+  opacity: 0.5;
+}
+
+
+#P1background{
+  background:
+    /*linear-gradient(#0d4fa7 20%, #3072cc 40%, #6facff 60%, #EA461A 90%,  #F8FB2B);*/
+    linear-gradient(#000000 25%, #020f1f 30%, #072c5c 50%, #083269 55%, #0a3c7e 60%, #0a3e83 70%, #0d4fa5 80%, #3072cc 90%, #3877cf 100%);  
+  
+
+}
+
+
+
+    
+
+ 
