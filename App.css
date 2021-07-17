@@ -21,9 +21,7 @@ html{
   right: 60%; 
   flex:1;
 }
-@media screen and (max-width: 500px) {
-  .cloudText { overflow-block: none; }
-}
+
 
 #cloud-circle1 {
     width: 500px;
