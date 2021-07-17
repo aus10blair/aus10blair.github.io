@@ -15,8 +15,11 @@ html{
   display: flex;
   
 }
-
-
+.cloudText{
+  position:fixed;
+  bottom: 12%;
+  right: 60%; 
+}
 
 
 #cloud-circle1 {
@@ -47,7 +50,7 @@ html{
   
  
 /* Sky and cloud name */
-.cloudText{
+.name{
     font-family: 'Courier New', monospace;
     font-size: 40px;
     color: whitesmoke;
@@ -57,7 +60,6 @@ html{
     display:flex;
     bottom: 0;
     left: 0;
-    right:16%;
    width: 15%;
    
    
