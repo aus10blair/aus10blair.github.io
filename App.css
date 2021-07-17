@@ -19,6 +19,7 @@ html{
   position:fixed;
   bottom: 120px;
   right: 600px; 
+  flex:1;
 }
 
 
