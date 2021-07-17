@@ -17,8 +17,8 @@ html{
 }
 .cloudText{
   position:fixed;
-  bottom: 120px;
-  right: 600px; 
+  bottom: 12%;
+  right: 60%; 
   flex:1;
 }
 
