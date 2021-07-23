@@ -66,11 +66,7 @@ html{
     filter: url("#flyOn");
     animation: wavemover 10s infinite alternate linear;
  }
-      @media screen and (max-width: 800px) {
-    .name{
-      width:5%;
-      
-      }  
+     
     
     @keyframes wavemover {
       100% {
