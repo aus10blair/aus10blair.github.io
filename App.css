@@ -65,9 +65,10 @@ html{
    
     filter: url("#flyOn");
     animation: wavemover 10s infinite alternate linear;
- }
-     
-    
+   
+  
+  }  
+  
     @keyframes wavemover {
       100% {
         padding-left: 150px;
