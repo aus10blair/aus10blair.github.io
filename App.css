@@ -68,7 +68,8 @@ html{
  }
       @media screen and (max-width: 800px) {
     .name{
-      width:50%
+      width:5%;
+      
       }  
     
     @keyframes wavemover {
