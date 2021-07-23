@@ -68,10 +68,7 @@ html{
  }
       @media screen and (max-width: 800px) {
     .name{
-       padding-right: 15px;
-       padding-left: 15px;
-       margin-right: auto;
-       margin-left: auto; }
+      width:50%
       }  
     
     @keyframes wavemover {
