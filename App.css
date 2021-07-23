@@ -1,4 +1,3 @@
-
 body,
 html{
   box-sizing: border-box;
@@ -20,8 +19,6 @@ html{
   bottom: 12%;
   right: 60%; 
 }
-
-
 #cloud-circle1 {
     width: 500px;
     height: 275px;
@@ -35,7 +32,6 @@ html{
    
     }
     
-
   #cloud-circle2 {
     width: 500px;
     height: 275px;
@@ -62,13 +58,13 @@ html{
     left: 0;
    width: 15%;
    
-   
+
     filter: url("#flyOn");
     animation: wavemover 10s infinite alternate linear;
-   
-  
+
   }  
-  
+ 
+ 
     @keyframes wavemover {
       100% {
         padding-left: 150px;
@@ -76,12 +72,10 @@ html{
         transform: translateX(50px);
       }
     }
-
     
     /* ============================================================================================== 
 Star Sky
 ================================================================================================= */
-
 header {
   color:#ffffff;
   display:block;
@@ -105,7 +99,6 @@ header a, a:visited {
   text-decoration:none;
   color:#fcfcfc;
 }
-
 @keyframes move-twink-back {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
@@ -122,38 +115,30 @@ header a, a:visited {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
 }
-
-
 .stars, .twinkling, .clouds {
 position:absolute;
 top:0;
 width:100%;
 height:25%;
 display:block;
-
 }
-
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;  
 }
-
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:1;
-
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
   -o-animation:move-twink-back 200s linear infinite;
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
 }
-
 section {
   min-height: 100%;
   padding:1px;
 }
-
 .projectBox {
   display: flex;
   flex-wrap: wrap;
@@ -161,7 +146,6 @@ section {
   margin-top: 15%;
   text-decoration: gray;
 }
-
 .cloud{
   text-decoration: gray;
   flex-wrap: nowrap ;
@@ -177,12 +161,10 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
 }
-
 a:hover, a:active {
 color:#d3d3d3;
 text-decoration: gray;
 }
-
 #project1{
     font-family: 'Courier New', monospace;
     font-size: 55px;
@@ -202,7 +184,6 @@ text-decoration: gray;
     }
 }
  
-
 #project2{
   font-family: 'Courier New', monospace;
   font-size: 55px;
@@ -241,7 +222,6 @@ text-decoration: gray;
     
     }
 }
-
 #project4{
   font-family: 'Courier New', monospace;
   font-size: 55px;
@@ -260,7 +240,6 @@ text-decoration: gray;
     
     }
 }
-
 #project5{
   font-family: 'Courier New', monospace;
   font-size: 55px;
@@ -279,7 +258,6 @@ text-decoration: gray;
     
     }
 }
-
 #project6{
   font-family: 'Courier New', monospace;
   font-size: 55px;
@@ -316,7 +294,6 @@ text-decoration: gray;
     
     }
 }
-
 #project8{
   font-family: 'Courier New', monospace;
   font-size: 55px;
@@ -364,7 +341,6 @@ text-decoration: gray;
     
     }
   }
-
   #contactLinkedin{
     font-family: 'Courier New', monospace;
     font-size: 55px;
@@ -401,7 +377,6 @@ text-decoration: gray;
     
     }
   }
-
   
   .aboutMePage {
     display: flex;
