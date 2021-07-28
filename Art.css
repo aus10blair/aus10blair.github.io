@@ -150,3 +150,7 @@ h1{
     margin-right: 5%;
 
 }
+
+@media screen and (max-width: 600px) {
+    h1{ font-size: 25px; } 
+}
