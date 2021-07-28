@@ -8,14 +8,14 @@
   }
 h1{
     position: absolute;
-   display: block;
     font-family: 'Courier New', monospace;
     color: #28DF99;
     margin-top: 5%;
-    margin-bottom: 5%;
    margin-left: 38%;
    margin-right: 38%;
    font-size: 55px;
+   overflow: hidden;
+   white-space: nowrap;
 }
  
   .artBox {
@@ -24,19 +24,22 @@ h1{
     flex-wrap: wrap;
     flex-direction: row;
     height: 100%;
-    width: 100%;
-    margin: 10% 2% 10%;
-    box-sizing: content-box;
-
+    width: auto;
+    margin: 15% 2% 15%;
+    padding: 5px;
     
 }
   .paint{
-      box-sizing: content-box;
+    box-sizing: border-box;
+    width: 50%;
+
+    padding: 0;
     margin: 0% 0% 0%;
     width: 400px;
     height: 400px;
     flex-direction: row;
-    border: 5px solid white;
+    margin: 2%;
+    
     
     
   }
@@ -47,6 +50,7 @@ h1{
    #project1:hover{
     transform: scale(1.5);
     margin-left: 5%;
+    
    }
 
 
@@ -152,7 +156,6 @@ h1{
     margin-right: 5%;
 
 }
-
-@media screen and (max-width: 1200px) {
-    h1{ font-size: 20px;} 
+@media screen and (max-width: 600px) {
+    h1 { font-size: small; } 
 }
