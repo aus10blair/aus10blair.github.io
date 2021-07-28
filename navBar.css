@@ -55,7 +55,7 @@
     #topnavBar { visibility: hidden; } 
 }
   @media screen and (max-width: 1600px) {
-    #topnavBar { visibility: hidden; } 
+    #topnavBar {width: 65%; } 
 }
  
   
