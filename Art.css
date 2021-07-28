@@ -8,6 +8,7 @@
   }
 h1{
     position: absolute;
+   display: block;
     font-family: 'Courier New', monospace;
     color: #28DF99;
     margin-top: 5%;
