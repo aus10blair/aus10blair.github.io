@@ -50,12 +50,10 @@
   .navBar .icon {
     display: none;
   }
- @media (max-width: 1200px) {
-    .short-text { display: inline-block; }
-    .full-text { display: none; }
-}
-@media screen and (max-width: 500px) {
-    #topnavBar { visibility: hidden; }
+
+@media screen and (max-width: 160000px) {
+    #topnavBar { width: 65%; }
+    
 }
   
  
