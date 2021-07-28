@@ -51,10 +51,11 @@
     display: none;
   }
 
-@media screen and (max-width: 160000px) {
-    #topnavBar { width: 65%; }
-    
+@media screen and (max-width: 600px) {
+    #topnavBar { visibility: hidden; } 
 }
-  
+  @media screen and (max-width: 1600px) {
+    #topnavBar { visibility: hidden; } 
+}
  
   
