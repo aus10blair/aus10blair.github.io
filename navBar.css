@@ -2,7 +2,8 @@
 
 .navBar {
     top: 5%;
-    left: 25;
+    width:50%;
+    left: 25%;
     right: 25%;
     height: 20;
     font-family: 'Courier New', monospace;
