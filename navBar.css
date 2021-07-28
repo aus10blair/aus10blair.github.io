@@ -50,29 +50,10 @@
   .navBar .icon {
     display: none;
   }
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon)  */
-@media screen and (max-width: 1500) {
-    .navBar a:not(:first-child) {display: none;}
-    .navBar a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  /* The "responsive" class is added to the navBar with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 1500px) {
-    .navBar.responsive {position: relative;}
-    .navBar.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navBar.responsive a {
-      float: none;
-      display: inline;
-      text-align: left;
-    }
-  }  
+ @media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
 @media screen and (max-width: 500px) {
     #topnavBar { visibility: hidden; }
 }
