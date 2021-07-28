@@ -1,0 +1,152 @@
+  body{
+    background-color: black;
+  display: flex;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+ 
+  }
+h1{
+    position: absolute;
+    font-family: 'Courier New', monospace;
+    color: #28DF99;
+    margin-top: 5%;
+   margin-left: 38%;
+   margin-right: 38%;
+   font-size: 55px;
+}
+ 
+  .artBox {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 15% 2% 15%;
+    box-sizing: border-box;
+
+    
+}
+  .paint{
+      box-sizing: content-box;
+    margin: 0% 0% 0%;
+    width: 400px;
+    height: 400px;
+    flex-direction: row;
+    border: 5px solid white;
+    
+    
+  }
+ 
+  #project1{
+      flex: 1;   
+  }   
+   #project1:hover{
+    transform: scale(1.5);
+    margin-left: 5%;
+   }
+
+
+  #project2{
+    
+    flex: 1;   
+}
+#project2:hover{
+    transform: scale(1.5);
+
+}
+
+#project3{
+   
+    flex: 1;   
+}
+
+#project3:hover{
+    transform: scale(1.5);
+}
+#project4{
+   
+    flex: 1;   
+}
+#project4:hover{
+    transform: scale(1.5);
+    margin-right: 5%;
+}
+
+
+#project5{
+   
+    flex: 1;   
+}
+#project5:hover{
+    transform: scale(1.5);
+    margin-left: 5%;
+}
+
+
+#project6{
+    
+    flex: 1;   
+}
+#project6:hover{
+    transform: scale(1.5);
+
+}
+
+
+#project7{
+    
+    flex: 1;   
+}
+#project7:hover{
+    transform: scale(1.5);
+
+}
+
+
+#project8{
+    
+    flex: 1;   
+}
+#project8:hover{
+    transform: scale(1.5);
+    margin-right: 5%;
+}
+
+
+#project9{
+    
+    flex: 1;   
+}
+#project9:hover{
+    transform: scale(1.5);
+    margin-left: 5%;
+}
+
+
+#project10{
+    
+    flex: 1;   
+}
+#project10:hover{
+    transform: scale(1.5);
+
+}
+#project11{
+    
+    flex: 1;   
+}
+#project11:hover{
+    transform: scale(1.5);
+
+}
+#project12{
+    
+    flex: 1;   
+}
+#project12:hover{
+    transform: scale(1.5);
+    margin-right: 5%;
+
+}
