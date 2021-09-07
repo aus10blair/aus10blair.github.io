@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="App.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="navBar.css">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="professional.css">
+    <script type="text/javascript">
+       function swapStyleSheet (sheet){
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+
+       }
+
+    </script>
     <title>Austin Blair Website</title>
   </head>
   
@@ -51,6 +59,8 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
       </a>
+      <button id="profStyle" onclick="swapStyleSheet('professional.css')">Professional Style</button>
+
     </div> 
   
  </header>
