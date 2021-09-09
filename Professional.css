@@ -189,7 +189,8 @@ a{
   .middle{
     flex-direction: column;
     flex-shrink: 5;
-    padding-bottom: 5%;
+    padding-bottom: 5%; 
+   margin-left:2%;
   }
 
 	.introduction {
