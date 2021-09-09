@@ -267,17 +267,13 @@ figcaption {
 }
 
 .cloud{
-  width: auto;
-  padding-left: 5;
-  padding-right: 5;
-
+  width: 32em;
+  overflow-wrap: normal;
   flex-direction: row;
- 
   position: relative;
   text-decoration: gray;
-  justify-content: space-around;
-  flex-wrap: nowrap ;
-  width: 300px;
+  justify-content: center;
+  flex-wrap: wrap ;
   height: 300px;
   
 }
