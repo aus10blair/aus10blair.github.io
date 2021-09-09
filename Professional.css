@@ -183,8 +183,10 @@ a{
     align-content: center;
     justify-content: center;
     
- .cloud{ 
+  }
+  .cloud{ 
     flex-direction: column;
+    flex-wrap: wrap;
     flex-shrink: 4;
     padding-bottom: 5%;
   }
@@ -194,7 +196,9 @@ a{
     flex-direction: column;
     flex-shrink: 4;
     padding-bottom: 5%;
-    margin-left: 35px;
+    flex-direction: column;
+    width: 70%;
+    flex-wrap: wrap;
   }
 
 	.introduction {
@@ -266,9 +270,9 @@ figcaption {
   width: auto;
   padding-left: 5;
   padding-right: 5;
-
-  flex-direction: row;
  
+  flex-direction: row;
+  margin: 1em;
   position: relative;
   text-decoration: gray;
   justify-content: space-around;
@@ -297,7 +301,7 @@ color:white;
     color: #333;
     text-decoration:gray;
     line-height: normal;
-    flex: 1;
+    flex: auto;
     
 }
  
@@ -308,8 +312,7 @@ color:white;
   color: #333;
  
   line-height: normal;
-  flex: 1;
- 
+  flex: auto;
 }
 #project3{
   font-family: 'Poppins', sans-serif;
@@ -317,7 +320,7 @@ color:white;
   color: #333;
   
   line-height: normal;
-  flex: 1;
+  flex: auto;
 }
 
 #project4{
@@ -326,8 +329,7 @@ color:white;
   color: #333;
  
   line-height: normal;
-  flex: 1;
-  
+  flex: auto;
 }
 
 #project5{
@@ -336,7 +338,7 @@ color:white;
   color: #333;
 
   line-height: normal;
-  flex: 1;
+  flex: auto;
  
 }
 
@@ -346,7 +348,7 @@ color:white;
   color: #333;
   
   line-height: normal;
-  flex: 1;
+  flex: auto;
   
 }
 #project7{
@@ -354,7 +356,7 @@ color:white;
   font-size: 55px;
   color: #333;
   line-height: normal;
-  flex: 1;
+  flex: auto;
 
 }
 
@@ -420,11 +422,11 @@ color:white;
     position: relative;
     opacity: .8;
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 370px;
+    height: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
-  
+    padding: none;
   }
   
   .middle {
@@ -453,3 +455,5 @@ color:white;
     font-size: 18px;
     padding: 16px 32px;
   }
+  
+ 
