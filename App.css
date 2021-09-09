@@ -79,7 +79,7 @@ html{
       100% {
         padding-left: 150px;
         padding-bottom: 150px;
-        transform: translateX(50em);
+        transform: translateX(50px);
       }
     }
 
