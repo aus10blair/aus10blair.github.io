@@ -186,7 +186,7 @@ a{
   }
   .cloud{ 
     flex-direction: column;
-   
+    flex-wrap: wrap;
     flex-shrink: 4;
     padding-bottom: 5%;
   }
@@ -197,7 +197,8 @@ a{
     flex-shrink: 4;
     padding-bottom: 5%;
     flex-direction: column;
-    ;
+    width: 70%;
+    flex-wrap: wrap;
   }
 
 	.introduction {
@@ -269,9 +270,9 @@ figcaption {
   width: auto;
   padding-left: 5;
   padding-right: 5;
- 
+
   flex-direction: row;
-  margin: 1em;
+ 
   position: relative;
   text-decoration: gray;
   justify-content: space-around;
@@ -300,7 +301,7 @@ color:white;
     color: #333;
     text-decoration:gray;
     line-height: normal;
-    flex: auto;
+    flex: 1;
     
 }
  
@@ -311,7 +312,8 @@ color:white;
   color: #333;
  
   line-height: normal;
-  flex: auto;
+  flex: 1;
+ 
 }
 #project3{
   font-family: 'Poppins', sans-serif;
@@ -319,7 +321,7 @@ color:white;
   color: #333;
   
   line-height: normal;
-  flex: auto;
+  flex: 1;
 }
 
 #project4{
@@ -328,7 +330,8 @@ color:white;
   color: #333;
  
   line-height: normal;
-  flex: auto;
+  flex: 1;
+  
 }
 
 #project5{
@@ -337,7 +340,7 @@ color:white;
   color: #333;
 
   line-height: normal;
-  flex: auto;
+  flex: 1;
  
 }
 
@@ -347,7 +350,7 @@ color:white;
   color: #333;
   
   line-height: normal;
-  flex: auto;
+  flex: 1;
   
 }
 #project7{
@@ -355,7 +358,7 @@ color:white;
   font-size: 55px;
   color: #333;
   line-height: normal;
-  flex: auto;
+  flex: 1;
 
 }
 
@@ -425,7 +428,7 @@ color:white;
     height: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
-    padding: none;
+    
   }
   
   .middle {
