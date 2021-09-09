@@ -183,14 +183,18 @@ a{
     align-content: center;
     justify-content: center;
     
+ .cloud{ 
+    flex-direction: column;
+    flex-shrink: 4;
+    padding-bottom: 5%;
   }
-  .cloud,
-  .image,
+  
+    .image,
   .middle{
     flex-direction: column;
-    flex-shrink: 5;
-    padding-bottom: 5%; 
-    margin-left: 3%;
+    flex-shrink: 4;
+    padding-bottom: 5%;
+    margin-left: 35px;
   }
 
 	.introduction {
