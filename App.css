@@ -15,14 +15,15 @@ html{
   display: flex;
   
 }
-
 .cloudText{
   position:fixed;
   bottom: 12%;
   right: 60%; 
 }
 
-
+h3{ margin-top: 12%;
+  text-align: center;
+}
 #cloud-circle1 {
     width: 500px;
     height: 275px;
@@ -48,13 +49,15 @@ html{
     left: 100%;
   
     }
- @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
       #cloud-circle2,
       #cloud-circle1 { visibility: hidden; } 
       #name{
         animation: none;
        }
     }
+
+ 
 /* Sky and cloud name */
 .name{
     font-family: 'Courier New', monospace;
@@ -77,9 +80,9 @@ html{
   
     @keyframes wavemover {
       100% {
-        padding-left: 150px;
-        padding-bottom: 150px;
-        transform: translateX(50px);
+        padding-left: 100px;
+        padding-bottom: 100px;
+        transform: translateX(20px);
       }
     }
 
@@ -95,10 +98,6 @@ header {
   position:relative;
   z-index:5;
   
-}
-
-h3{ margin-top: 12%;
-  text-align: center;
 }
 h2{
   margin-top: 30px;
@@ -458,3 +457,4 @@ text-decoration: gray;
     
     }
   }
+  
