@@ -48,7 +48,12 @@ html{
     left: 100%;
   
     }
-  
+  @media screen and (max-width: 1024px) {
+      #cloud-circle1,
+      #cloud-circle2{ visibility: hidden; } 
+    
+    
+}
  
 /* Sky and cloud name */
 .name{
@@ -74,7 +79,7 @@ html{
       100% {
         padding-left: 150px;
         padding-bottom: 150px;
-        transform: translateX(50px);
+        transform: translateX(50em);
       }
     }
 
