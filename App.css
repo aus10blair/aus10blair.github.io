@@ -48,13 +48,13 @@ html{
     left: 100%;
   
     }
-  @media screen and (max-width: 1024px) {
-      #cloud-circle1,
-      #cloud-circle2{ visibility: hidden; } 
-    
-    
-}
- 
+ @media screen and (max-width: 1200px) {
+      #cloud-circle2,
+      #cloud-circle1 { visibility: hidden; } 
+      #name{
+        animation: none;
+       }
+    }
 /* Sky and cloud name */
 .name{
     font-family: 'Courier New', monospace;
