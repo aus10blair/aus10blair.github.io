@@ -1,0 +1,48 @@
+body{
+    background-color: #000;
+  float: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 1em;
+  }
+
+  .TheShadeRoom{
+      text-align: center;
+    justify-content: center;
+    display: flex;
+}
+  h1{
+    color: #FFFF;
+    text-align: center;
+    flex: 1;
+  }
+  
+  p{
+    margin-left: auto;
+    margin-right: auto;
+      color: #FFFF;
+      text-align: center;
+      flex: 1;
+      width: 70%;
+      justify-content: center;
+  }
+ div{
+    color: #FFFF;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+ img{
+     justify-content: center;
+     flex: 1;
+     width: 30%;
+     height: auto;
+ }
+ @media screen and (max-width: 1024px) {
+    img:hover{
+        transform: scale(2.5);
+       }
+ }
+
+ 
