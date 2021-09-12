@@ -197,7 +197,7 @@ section {
   width: 90%;
   height: 8em;
   text-decoration: gray;
-
+ overflow: hidden;
 }
 
 .cloud{
@@ -208,7 +208,7 @@ section {
   margin: 0% 2% 0%;
   border-radius: 30% / 0%;
   display: flex;
-  
+  overflow: hidden;
   
 }
 a{
