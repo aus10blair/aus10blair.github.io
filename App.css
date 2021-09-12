@@ -195,10 +195,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   margin-top: 12%;
+  margin-right: 1%;
   width: 90%;
   height: 8em;
   text-decoration: gray;
- overflow: hidden;
+ 
 }
 
 .cloud{
