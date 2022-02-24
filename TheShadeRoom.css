@@ -4,6 +4,10 @@
 	box-sizing: border-box;
   
 }
+section {
+  min-height: 100%;
+  padding:1px;
+}
 body{
     font-family: 'Poppins', sans-serif;
   background-color: #e6dec1;
@@ -15,10 +19,7 @@ body{
   width: 90%;
   font-size: 1em;
   }
-section {
-  min-height: 100%;
-  padding:1px;
-}
+
   .TheShadeRoom{
       text-align: center;
     justify-content: center;
@@ -132,4 +133,3 @@ nav {
 		flex-direction: column;
 
 	}
- 
