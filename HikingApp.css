@@ -4,10 +4,7 @@
 	box-sizing: border-box;
   
 }
-section {
-  min-height: 100%;
-  padding:1px;
-}
+
 body{
     font-family: 'Poppins', sans-serif;
   background-color: #e6dec1;
