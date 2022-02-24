@@ -26,8 +26,7 @@ header {
 	height: 10vh;
 	margin: auto;
 	align-items: center;
-	position: absolute; 
-		overflow: auto; 
+	  position: sticky;
 }
 footer{
   position: sticky;
