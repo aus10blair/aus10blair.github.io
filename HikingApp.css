@@ -91,8 +91,8 @@ header {
   font-family: "Lucida Handwriting", "Brush Script MT", cursive;
 }
 nav {
-	flex: 2;
-  margin-right: 5px;
+	flex: 1;
+  margin-right: 15px;
   position: sticky;
 }
 .nav-links {
