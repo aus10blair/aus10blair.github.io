@@ -19,7 +19,7 @@ section {
   padding:1px;
 }
 header {
-  position: sticky;
+
   top: 2%;
 	display: flex;
 	width: 90%;
