@@ -7,17 +7,10 @@
  
   }
 h1{
-    position: absolute;
-    font-family: 'Courier New', monospace;
-    //color: #28DF99;
-  color: black;
-    margin-top: 5%;
-   margin-left: 38%;
-   margin-right: 38%;
-   font-size: 55px;
-   overflow: hidden;
-   white-space: nowrap;
-}
+     color: black;
+    text-align: center;
+    flex: 1;
+  }
  
   .artBox {
     margin-top: 10%;
