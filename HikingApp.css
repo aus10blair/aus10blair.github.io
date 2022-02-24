@@ -14,7 +14,7 @@ body{
     
     
   float: center;
-  
+   margin: 0 auto;
   height: 100%;
   width: 90%;
   font-size: 1em;
