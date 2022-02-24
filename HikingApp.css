@@ -1,45 +1,43 @@
-body {
-	font-family: 'Poppins', sans-serif;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Poppins', sans-serif;
   background-color: #e6dec1;
     
     
-   
   float: center;
-
+  
   height: 100%;
   width: 100%;
   font-size: 1em;
- 
   }
-  .HikingApp{
-    text-align: center;
-  justify-content: center;
-  display: flex;
+
+  .TheShadeRoom{
+      text-align: center;
+    justify-content: center;
+    display: flex;
 }
   h1{
-   // color: #AFFFB3;
-	color: black;
+     color: black;
     text-align: center;
     flex: 1;
   }
-  h2{
-    //color: #AFFFB3;
-	 color: black;
-    text-align: center;
-    flex: 1;
-  }
+  
   p{
     margin-left: auto;
     margin-right: auto;
-      //color: #A2BFBD;
-	color: black;
+      color: black;
       text-align: center;
       flex: 1;
-      width: 80%;
+      width: 70%;
       justify-content: center;
   }
  div{
-   
+    color: black;
     text-align: center;
     flex-direction: column;
     justify-content: center;
@@ -47,98 +45,29 @@ body {
  img{
      justify-content: center;
      flex: 1;
-     width: 40%;
-    
-     
-    
-     
+     width: 30%;
+     height: auto;
  }
-	footer{
-  position: sticky;
-  bottom: 2%;
-	display: flex;
-	width: 30%;
-	height: 10vh;
-	margin: 2% 35%;
-	align-items: center;
-}
-
-
-.logo-container,
-.nav-links {
-	display: flex;
-}
-
-.logo-container {
-	flex: 1;
-}
-.logo {
-	font-weight: 700;
-	margin: 5px;
-  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
-}
-nav {
-	flex: 2;
-  margin-right: 5px;
-  position: sticky;
-}
-.nav-links {
-	justify-content: space-evenly;
-	list-style: none;
-}
-.nav-link {
-	color: #333;
-	font-size: 18px;
-	text-decoration: none;
-}
-
-
-
  @media screen and (max-width: 1024px) {
     img:hover{
-        transform: scale(3);
+        transform: scale(2.5);
        }
  }
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	.presentation {
-	display: flex;
-	width: 90%;
-	margin: auto;
-	min-height: 80vh;
-	align-items: center;
-  
-}
-.introduction {
-	flex: 1;
-}
-.intro-text h1 {
-	font-size: 44px;
-	font-weight: 500;
-	background: linear-gradient(to right, #333, #333);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-.intro-text p {
-	margin-top: 5px;
-	font-size: 22px;
-	color: #333;
-}
+
+
+
+
+
+
+
+
 
 header {
 position: sticky;
   top: 2%;
 	display: flex;
-	width: 90%;
+	width: 100%;
 	height: 10vh;
 	margin: auto;
 	align-items: center;
