@@ -56,7 +56,7 @@ body {
 
 header {
 	  position: sticky;
-		overflow: auto; 
+		
  
   top: 2%;
 	display: flex;
