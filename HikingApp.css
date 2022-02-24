@@ -17,14 +17,14 @@ body {
   display: flex;
 }
   h1{
-    color: #AFFFB3;
-	
+   // color: #AFFFB3;
+	color: black;
     text-align: center;
     flex: 1;
   }
   h2{
-    color: #AFFFB3;
-	 
+    //color: #AFFFB3;
+	 color: black;
     text-align: center;
     flex: 1;
   }
