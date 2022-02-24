@@ -15,7 +15,10 @@ body{
   width: 90%;
   font-size: 1em;
   }
-
+section {
+  min-height: 100%;
+  padding:1px;
+}
   .TheShadeRoom{
       text-align: center;
     justify-content: center;
