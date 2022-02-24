@@ -55,7 +55,7 @@ body {
  }
 
 header {
-	position: absolute; 
+	  position: sticky;
 		overflow: auto; 
  
   top: 2%;
