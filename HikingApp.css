@@ -133,3 +133,53 @@ nav {
 	font-size: 22px;
 	color: #333;
 }
+
+header {
+position: sticky;
+  top: 2%;
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+	  
+}
+footer{
+  position: sticky;
+  bottom: 2%;
+	display: flex;
+	width: 30%;
+	height: 10vh;
+	margin: 2% 35%;
+	align-items: center;
+}
+
+
+.logo-container,
+.nav-links {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+}
+.logo {
+	font-weight: 700;
+	margin: 5px;
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+nav {
+	flex: 2;
+  margin-right: 5px;
+  position: sticky;
+}
+.nav-links {
+	justify-content: space-evenly;
+	list-style: none;
+}
+.nav-link {
+	color: #333;
+	font-size: 18px;
+	text-decoration: none;
+}
+
