@@ -12,11 +12,11 @@ body{
   font-size: 1em;
   }
 
-  .TheShadeRoom{
-      text-align: center;
-    justify-content: center;
-    display: flex;
-}
+ // .TheShadeRoom{
+  //    text-align: center;
+ //   justify-content: center;
+ //   display: flex;
+//}
   h1{
      color: black;
     text-align: center;
