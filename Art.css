@@ -6,6 +6,7 @@
   width: 90%;
   padding: 0.625em;
  float: center;
+	  overflow-x:hidden;
    
   }
 	  
