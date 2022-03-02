@@ -173,9 +173,9 @@ header {
 position: absolute;
   top: 2%;
 	
-	width: 80;
+	width: 80%;
 	height: 10vh;
-	margin: auto;
+	margin: 0;
 	align-items: center;
 	  
 }
