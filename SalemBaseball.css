@@ -1,14 +1,13 @@
 
-
 body{
     font-family: 'Poppins', sans-serif;
   background-color: #e6dec1;
     padding: 0.625em;
     overflow-x:hidden;
   float: center;
-   margin: auto;
+   margin: 0;
   height: 100%;
-  width: 80%;
+  width: 100%;
   font-size: 1em;
   }
 
@@ -45,7 +44,7 @@ body{
      height: auto;
  }
  @media screen and (max-width: 1024px) {
-    img: hover{
+    img:hover{
         transform: scale(2.5);
        }
  }
