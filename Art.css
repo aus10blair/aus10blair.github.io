@@ -173,12 +173,12 @@ header {
 position: absolute;
   top: 2%;
 	display: flex;
-	width: 80%;
+	width: 90%;
 	height: 10vh;
 	margin: auto;
 	padding-right: .685em;
 	align-items: center;
-	 padding: 5px;
+	
 }
 footer{
   position: sticky;
