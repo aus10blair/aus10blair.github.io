@@ -172,7 +172,7 @@ h1{
 header {
 position: absolute;
   top: 2%;
-	
+	 padding: 100px;
 	width: 80%;
 	height: 10vh;
 	margin: 0;
