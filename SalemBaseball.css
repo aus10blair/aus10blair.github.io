@@ -6,7 +6,7 @@ body{
     padding: 0.625em;
     overflow-x:hidden;
   float: center;
-   margin: 0;
+   margin: auto;
   height: 100%;
   width: 80%;
   font-size: 1em;
@@ -61,7 +61,7 @@ body{
 header {
 position: absolute;
 	display: flex;
-	width: 90%;
+	width: 80%;
 	height: 10vh;
 	margin: auto;
 	align-items: center;
