@@ -173,9 +173,11 @@ header {
 position: absolute;
   top: 2%;
 	
+	 margin: 15% 2% 15%;
+    padding: 5px;
 	width: 80%;
 	height: 10vh;
-	margin: AUTO;
+	
 	align-items: center;
 	  
 }
