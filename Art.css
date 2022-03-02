@@ -176,8 +176,9 @@ position: absolute;
 	width: 80%;
 	height: 10vh;
 	margin: auto;
+	padding-right: .685em;
 	align-items: center;
-	  
+	 padding: 5px;
 }
 footer{
   position: sticky;
